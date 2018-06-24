@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
@@ -2245,3 +2246,385 @@ input::-ms-clear, input::-webkit-clear {
     visibility: visible;
     opacity: 1;
 }
+=======
+@import url("`ttps://fonts.googleapis.com/css?family=Roboto");
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+    line-height: 1;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+body .pt-log {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
+
+body .gray-text {
+    color: #6b6b6b;
+    font-size: 0.7em;
+}
+
+body .side-text {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.list-header {
+    color: #282828;
+    font-size: 14px;
+}
+
+.list-subheader {
+    color: #6b6b6b;
+    font-size: 12px !important;
+}
+
+body .content-dash {
+    /* background-image: url("../media/bg2.jpg"), url("../media/bg3.png"); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+header {
+    font-size: 0;
+    display: flex;
+}
+
+body .content-dash .nav-container {
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 351px);
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 351px;
+    position: relative;
+}
+
+body .content-dash .nav-container ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+body .content-dash .nav-container ul li a {
+    text-decoration: none;
+    color: #00385d;
+    font-size: 16px;
+}
+
+body .content-dash .col-1 {
+    display: inline-block;
+    /* width: 45%; */
+}
+
+body .content-dash .left-section {
+    /* height: 480px;
+    width: 420px; */
+    margin-top: 52px;
+    /* margin-left:160px; */
+    margin-left: 0px;
+    position: relative;
+}
+
+.person-on-map {
+    position: absolute;
+    width: 70px;
+    height:70px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: medium;
+    border-color: pink;
+}
+
+.person-01 {
+    top: 195px;
+    left: 10px;
+    width: 70px;
+}
+
+body .content-dash .right-section {
+    width: calc(100% - 420px);
+    max-width: 543px;
+    /* margin-left: 72px; */
+    margin-left: 0px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    /* overflow-y: auto;
+    height: calc(100vh - 146px); */
+}
+
+body .content-dash .right-section .description-mod {
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #c2c5c7;
+    background-color: #d4e2ec;
+    height: 80px;
+    overflow: hidden;
+    transition: height .1s ease-in ;
+}
+
+body .content-dash .right-section .description-mod:active {
+    height: 230px;
+}
+
+.pt-detail {
+    width: 200px;
+}
+
+.pt-loc {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.pt-stat {
+    width: 100px;
+    margin-left: 50px;
+    position: relative;
+}
+
+/*# sourceMappingURL=dashstyle.css.map */
+
+* {
+    box-sizing: border-box;
+}
+
+body .content-dash .nav-container ul {
+    font-size: 0;
+}
+
+body .content-dash .nav-container ul li {
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.user-wrap {
+    display: inline-block;
+    margin-left: 25px;
+    width: 50px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.content-body {
+    display: flex;
+    /*align-items: center;
+    margin-top: 50px;
+    justify-content: center;*/
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.alerts-heading {
+    font-size: 22px;
+    color: #df0070;
+    margin-bottom: 12px;
+}
+
+.nav-list:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 870px;
+    background: #c4c4c4;
+    margin-left: auto;
+}
+
+.floor-map {
+    /* height: 420px; */
+    height: 550px;
+    width: auto;
+}
+
+.logo-img {
+    position: absolute;
+    height: 56px;
+    width: auto;
+    top: 26px;
+    left: 26px;
+    z-index: 1;
+}
+
+.logo-bg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+}
+
+.avatar {
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: medium;
+    border-color: pink;
+    margin-right: 20px;
+}
+
+.dropdown-arrow-dwn {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-top: 7px solid #00385d;
+}
+
+.dropdown-arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 7px solid #00385d;
+}
+.drop-down {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mr-t-5 {
+    margin-top: 3px;
+}
+.list-detail {
+    /*display: none;*/
+    margin-top: 30px;
+    margin-left: 19px;
+}
+.description-mod.active .list-detail {
+    display: block;
+}
+
+.description-mod .drop-down.up {
+    display: none;
+}
+.description-mod .drop-down.down {
+    display: block;
+}
+
+.description-mod:active .drop-down.up {
+    display: block;
+}
+.description-mod:active .drop-down.down {
+    display: none;
+}
+
+.iBlock-wrap {
+    font-size: 0;
+}
+
+.iBlock {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.dot.danger {
+    background: #fa3434;
+}
+
+.dot.safe {
+    background: #53aa2d;
+}
+.status {
+    margin-left: 23px;
+}
+
+.list-detail > * {
+    height: 50px;
+}
+
+.list-detail > *:last-child {
+    height: auto;
+}
+
+.time {
+    margin-left: 10px;
+}
+.line-wrap {
+    position: relative;
+}
+.line-wrap:after {
+    content: '';
+    display: block;
+    height: calc(100% - 10px);
+    width: 1px;
+    background: #aab5bd;
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    transform: translateX(-50%);
+}
+.line-wrap:last-child:after {
+    display: none;
+}
+.pagination {
+    margin-top: 38px;
+}
+.page:first-child {
+    margin-left: 0;
+}
+.page {
+    border-radius: 7px;
+    border-width: 1px;
+    border-color:  #c2c5c7;
+    border-style: solid;
+    background-color:  #d4d4d4;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 10px;
+}
+.page.active {
+    background-color: #383838;
+    color: #fff;
+}
+
+.right-section-content {
+    overflow-y: auto;
+    height: calc(100vh - 170px);
+    /* border-top: 5px solid pink;
+    border-left: 1px solid pink;
+    border-right: 1px solid pink; */
+}
+
+
+>>>>>>> parent of d01f52a... Cleaned old files
